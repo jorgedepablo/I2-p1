@@ -1,0 +1,5 @@
+errores a revisar
+ el most frecuent word no va bien cuando añades palabras
+ no coge los tabuladores 
+ no se como hacer lo de las comas y puntos 
+ si pongo dos palabras seguidas iguales no me las cuarda como iguales 

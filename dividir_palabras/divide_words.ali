@@ -1,0 +1,107 @@
+V "GNAT Lib v4.8"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U divide_words%b	divide_words.adb	40e88e98 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D divide_words.adb	20170928111000 dc75e711
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20140416144310 90249111
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 2r6 3r6 4r6 7r23 8r23 38r74 41r46
+X 4 a-except.ads
+53K13*Exceptions 355e19 14|3w10
+X 6 a-ioexce.ads
+18K13*IO_Exceptions 30e22 14|4w10 41r50
+26X4*End_Error 14|41r64
+X 8 a-string.ads
+16K13*Strings 35e16 14|2r10 7r27
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 14|2w18 7r35
+79R9*Unbounded_String 473e14 14|10r44 12r16 34r28
+84V13*Length{natural} 14|17s14 23s43 26s39
+94V13*To_Unbounded_String{79R9} 14|38s54
+100V13*To_String{string} 14|20s31 27s28
+230V13*Index{natural} 14|16s22
+396V13*Head{79R9} 14|25s25
+406V13*Tail{79R9} 14|23s27 26s23
+X 12 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 8r27 38r78
+52P9*File_Type(369R9) 14|32r40 47r15
+53n23*In_File{53E9} 14|51r22
+92U14*Open 14|51s7
+98U14*Close 14|53s7
+253V13*Get_Line{string} 14|38s86
+263U14*Put_Line 14|20s18 27s15
+X 14 divide_words.adb
+6U11*Divide_Words 6b11 55l5 55t17
+7K11 ASU=7:35 10r40 12r12 16r18 17r10 20r27 23r23 23r39 25r21 26r19 26r35
+. 27r24 34r24 38r50
+8K11 ATI=8:27 20r14 27r11 32r36 47r11 51r3 51r18 53r3
+10U13 Trocear_Linea 10b13 10=27 30l7 30t20 39s41
+10r27 Linea{10|79R9} 16r28 17r21 20r41 23m15 23r32 23r50 25r30 26m11 26r28
+. 26r46
+11b3 Eol{boolean} 15r15 18m9 21m14
+12r3 Palabra{10|79R9} 25m11 27r38
+13i3 Posicion{natural} 16m7 19r15 22r15 25r37 26r54
+32U13 Trocear_Texto 32b13 32>27 45l13 45t26 52s3
+32p27 Fich{12|52P9} 38r95
+33b17 Eof{boolean} 36r35 42m49
+34r17 Linea{10|79R9} 38m41 39m55 39r55
+47p5 Fich{12|52P9} 51m12 51r12 52r17 53m13 53r13
+

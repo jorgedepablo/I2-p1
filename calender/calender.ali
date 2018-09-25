@@ -1,0 +1,85 @@
+V "GNAT Lib v4.8"
+M P W=b
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U calender%b		calender.adb		7444e780 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D calender.adb		20171011085745 ef00f06a
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20140416144310 90249111
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-valint.ads		20090409150019 48a52a3f
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 2r6 3r6 7r23 8r23
+X 8 a-string.ads
+16K13*Strings 35e16 14|2r10 3r10 8r27
+X 9 a-strmap.ads
+38K21*Maps 412e21 14|3w18
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 14|2w18 8r35
+X 12 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 7r27
+52P9*File_Type(369R9) 14|14r13
+53n32*Out_File{53E9} 14|28r24
+86U14*Create 14|28s7
+166U14*New_Line 14|19s7 22s7 25s7
+242U14*Put 14|17s7 20s7 23s7 26s7
+256V13*Get_Line{string} 14|18s30 21s31 24s30 27s31
+X 14 calender.adb
+5U11*Calender 5b11 30l5 30t13
+7K11 ATI=7:27 14r9 17r3 18r26 19r3 20r3 21r27 22r3 23r3 24r26 25r3 26r3 27r27
+. 28r3 28r20
+8K11 ASU=8:35
+10i3 Mes_1{integer} 18m3
+11i3 Year_1{integer} 21m3
+12i3 Mes_2{integer} 24m3
+13i3 Year_2{integer} 27m3
+14p3 Fich{12|52P9} 28m14 28r14
+

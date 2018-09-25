@@ -1,0 +1,161 @@
+V "GNAT Lib v4.8"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U word_lists%b		word_lists.adb		8819b841 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U word_lists%s		word_lists.ads		61bd9d13 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20140416144310 90249111
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-conca4.ads		20090420091404 025fe3be
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D word_lists.ads	20171005115809 5e2c49d6
+D word_lists.adb	20171006095311 ab0e689a
+X 1 ada.ads
+16K9*Ada 19e8 41|1r6 5r23 42|1r6 2r6 3r6 4r6 8r23 9r23 13r25
+X 6 a-ioexce.ads
+18K13*IO_Exceptions 30e22 42|4w10 9r27
+X 8 a-string.ads
+16K13*Strings 35e16 41|1r10 5r27 42|2r10
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 41|1w18 5r35 42|2w18
+79R9*Unbounded_String 473e14 41|10r15 17r65 19r68 21r64 23r62 42|11r16 15r65
+. 40r68 69r64 86r62
+100V13*To_String{string} 42|108s34
+166V14*"="{boolean} 42|26s17 47s16 54s17 77s15
+X 12 a-textio.ads
+49K13*Text_IO 471e16 42|1w10 8r27
+263U14*Put_Line 42|46s11 74s11 108s15 112s13
+X 14 a-uncdea.ads
+20u15*Unchecked_Deallocation 42|3w10 13r29
+X 41 word_lists.ads
+3K9*Word_Lists 29l5 29e15 42|6b14 144l5 144t15
+5K11*ASU=5:35 10r11 17r61 19r64 21r60 23r58 42|11r12 15r61 40r64 69r60 86r58
+. 108r30
+7R8*Cell 8r33 9c8 13e13 42|13r52 21r19 35r31
+8P8*Word_List_Type(7R8) 12r11 17r36 19r39 21r35 23r32 25r33 27r39 42|13r58
+. 15r36 16r15 17r16 40r39 41r12 42r12 69r35 70r15 86r32 87r17 103r35 104r17
+. 116r41 117r14 118r14
+10r5*Word{10|79R9} 42|22m12 26r28 47r23 54r25 77r26 95r28 108r53
+11i5*Count{natural} 42|23m12 27m20 27r38 78r27 94r21 96r29 108r90
+12p5*Next{8P8} 42|31r32 35m19 48r22 52r22 55m17 55r31 59r26 60r26 61r20 81r30
+. 98r32 109r32 123r16 124r22 128r23 131m17 131r31 137r26 138r26
+15X3*Word_List_Error 42|62r19 91r15 135r17
+17U13*Add_Word 17=23 17>52 42|15b13 38l7 38t15
+17p23 List{8P8} 42|15b23 16r33 17r34 20r8 21m7 22m7 22r7 23m7 23r7
+17r52 Word{10|79R9} 42|15b52 22r20 26r12 35r37
+19U13*Delete_Word 19=26 19>55 42|40b13 67l7 67t18
+19p26 List{8P8} 42|40b26 41r30 42r30 45r8 47r18 49m12 50m7
+19r55 Word{10|79R9} 42|40b55 47r11 54r12
+21U13*Search_Word 21>26 21>51 21<82 42|69b13 84l7 84t18
+21p26 List{8P8} 42|69b26 70r33 73r8
+21r51 Word{10|79R9} 42|69b51 77r10
+21i82 Count{natural} 42|69b82 78m9
+23U13*Max_Word 23>23 23<48 23<80 42|86b13 101l9 101t17
+23p23 List{8P8} 42|86b23 87r35 90r10
+23r48 Word{10|79R9} 42|86b48 95m11
+23i80 Count{natural} 42|86b80 89m7 94r29 96m11
+25U13*Print_All 25>24 42|103b15 114l9 114t18
+25p24 List{8P8} 42|103b26 104r35 106r10
+27U13*Delete_List 27=26 42|116b15 142l5 142t16
+27p26 List{8P8} 42|116b28 117r32 118r32 121r8 123r11 126m7
+X 42 word_lists.adb
+8K11 ATI=8:27 46r7 74r7 108r11 112r9
+9K11 EXC=9:27
+13U13 Free[14|20] 49s7 56s11 125s7 132s11
+16p5 Aux_List{41|8P8} 25r28 26r19 27m11 27r11 27r29 30r24 31m11 31r23
+17p5 Last_Word{41|8P8} 30m11 35m9 35r9
+18b5 Finish{boolean} 25r17 28m11 34r14
+41p5 Aux_1{41|8P8} 48r16 52m7 54r19 55r25 56m16 56r16 59m11 59r20
+42p5 Aux_2{41|8P8} 48m7 50r15 52r16 55m11 55r11 60m11 60r20 61r14
+43b5 Finish{boolean} 53r17 57m11
+70p5 Aux_List{41|8P8} 77r17 77r35 78r18 81m9 81r21
+71b5 Finish{boolean} 76r15 79m9
+87p7 Aux_List{41|8P8} 93r13 94r12 95r19 96r20 98m11 98r23
+104p7 Aux_List{41|8P8} 107r15 108r44 108r81 109m11 109r23
+117p7 Aux_1{41|8P8} 124r16 125m12 125r12 128m8 130r12 131r25 132m16 132r16
+. 134r15 137m11 137r20
+118p7 Aux_2{41|8P8} 124m7 126r15 128r17 131m11 131r11 138m11 138r20
+119b7 Finish{boolean} 129r17 133m11
+

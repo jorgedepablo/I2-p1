@@ -1,0 +1,120 @@
+V "GNAT Lib v4.8"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U test_program%b	test_program.adb	7bbd3426 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W word_lists%s		word_lists.adb		word_lists.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D system.ads		20140416144310 90249111
+D s-atocou.ads		20111104134501 4a9c6cb4
+D s-atocou.adb		20111121115908 7116b4cf
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D test_program.adb	20171001103012 13d441e5
+D word_lists.ads	20170926143933 e408b21f
+X 1 ada.ads
+16K9*Ada 19e8 38|1r6 2r6 4r6 8r23 9r23 41r74 44r46
+X 6 a-ioexce.ads
+18K13*IO_Exceptions 30e22 38|4w10 44r50
+26X4*End_Error 38|44r64
+X 8 a-string.ads
+16K13*Strings 35e16 38|2r10 8r27
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 38|2w18 8r35
+79R9*Unbounded_String 473e14 38|11r44 14r13 37r28 53r10
+84V13*Length{natural} 38|18s14 25s39 28s39
+94V13*To_Unbounded_String{79R9} 38|41s54 59s36 61s36
+230V13*Index{natural} 38|17s22
+396V13*Head{79R9} 38|27s22
+406V13*Tail{79R9} 38|25s23 28s23
+X 12 a-textio.ads
+49K13*Text_IO 471e16 38|1w10 9r27 41r78
+52P9*File_Type(369R9) 38|35r40 51r13
+53n23*In_File{53E9} 38|56r22
+92U14*Open 38|56s7
+98U14*Close 38|63s7
+253V13*Get_Line{string} 38|41s86
+256V13*Get_Line{string} 38|59s60 61s60
+X 38 test_program.adb
+6U11*Test_Program 6b11 64l5 64t17
+8K11 ASU=8:35 11r40 14r9 17r18 18r10 25r19 25r35 27r18 28r19 28r35 37r24
+. 41r50 53r6 59r32 61r32
+9K11 ATI=9:27 35r36 51r9 56r3 56r18 59r56 61r56 63r3
+11U13 Trocear_Linea 11b13 11=27 11=62 33l7 33t20 42s41
+11r27 Linea{10|79R9} 17r28 18r21 22r37 25m11 25r28 25r46 27r27 28m11 28r28
+. 28r46
+11p62 List{39|8P8} 22m31 29m31
+12b3 Eol{boolean} 16r15 19m9 23m11
+13i3 Posicion{natural} 17m7 21r12 24r15 27r34 28r54
+14r3 Word{10|79R9} 27m11 29r37
+35U13 Trocear_Texto 35b13 35>27 35=51 48l13 48t26 57s3
+35p27 Fich{12|52P9} 41r95
+35p51 List{39|8P8} 42m62
+36b17 Eof{boolean} 39r35 45m49
+37r17 Linea{10|79R9} 41m41 42m55 42r55
+50p3 List{39|8P8} 57m23 57r23 58r24 59m26 59r26 60r24 61r26 62r23
+51p3 Fich{12|52P9} 56m12 56r12 57r17 63m13 63r13
+52i3 N{natural} 61m71 62m32
+53r3 W{10|79R9} 62m29
+X 39 word_lists.ads
+3K9*Word_Lists 38|3w6 11r75 22r11 29r11 35r64 50r9 58r3 59r3 60r3 61r3 62r3
+. 39|27e15
+8P8*Word_List_Type(7R8) 38|11r86 35r75 50r20
+17U13*Add_Word 38|22s22 29s22
+19U13*Delete_Word 38|59s14
+21U13*Search_Word 38|61s14
+23U13*Max_Word 38|62s14
+25U13*Print_All 38|58s14 60s14
+
